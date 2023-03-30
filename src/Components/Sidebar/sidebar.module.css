@@ -1,0 +1,61 @@
+.sidebar{
+    background-color: #101010;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.hamburger{
+    display: flex;
+    margin: 5% 0 0 80%;
+}
+
+.menu{
+    margin: auto;
+    font-size: 2.2rem;
+    font-weight: 700;
+    font-family: 'Poppins';
+
+    text-align: center;
+    /* justify-content: ce  nter; */
+}
+
+.menu div{
+    text-decoration: none;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.social{
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.social img{
+    display: flex;
+    margin: 0 1rem;
+    transform: rotate(90deg);
+}
+
+.social img:hover{
+    transform: rotate(450deg);
+    transition: 1s;
+    height: 1.5rem;
+}
+
+.mail{
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.mail>img{
+    margin: auto;
+    margin-right: 0.5rem;
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+}

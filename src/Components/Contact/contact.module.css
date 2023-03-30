@@ -1,0 +1,136 @@
+.contact{
+    background: #171515;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.head{
+    font-size: 4.5rem;
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+
+.head>span{
+    color:  #FFD283;
+}
+
+.head>p{
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+.head p{
+    font-size: 1.2rem;
+    margin: 0;padding: 0;
+    text-align: center;
+}
+
+.separator{
+    margin: 2rem 0;
+    border-bottom: 3px solid rgba(255, 210, 131, 0.2) ;
+}
+
+.contactCard{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 210, 131, 0.5);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgba(196, 196, 196, 0.07);
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 2rem 2rem 1rem;
+    gap: 1rem;
+}
+
+.contactCard input{
+    width: 80%;
+    height: 2rem;
+    margin: auto;
+    padding: 5px 7.5px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 210, 131, 0.5);
+    background-color: rgba(196, 196, 196, 0.07);
+}
+
+.message{
+    /* padding: 10px 15px; */
+    text-overflow: ellipsis;
+    justify-content:left;
+    height: 4rem !important;
+}
+
+.submitBtn{
+    margin: auto;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 210, 131, 0.5);
+    background-color: rgba(196, 196, 196, 0.07);
+}
+
+.submitBtn:hover{
+    color: #FFD283;
+    box-shadow: -3px 3px 4px inset rgba(255, 210, 131, 0.5);
+}
+
+.address{
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    transition: opacity 3s ease;
+}
+
+.hamburger{
+    margin: 2.5rem 3rem 0 0;
+}
+
+.social{
+    margin: 1rem 3rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.social img{
+    height: 1.2rem;
+}
+
+.social img:hover{
+    height: 1.5rem;
+    transform: rotate(90deg);
+    transition: 0.5s;
+}
+
+.line{
+    margin-top: 1rem;
+    border-right: 1px solid #fff;
+    height: 8rem;
+    display: flex;
+    margin-right: 5rem;
+}
+
+.verticalName{
+    margin: 12vh 4.5rem 0 0;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    align-items: center;
+}  

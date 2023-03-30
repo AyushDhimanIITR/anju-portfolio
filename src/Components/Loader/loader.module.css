@@ -1,0 +1,12 @@
+.loader{
+    display: flex;
+    margin: auto;
+    margin-top: 32vh;
+    justify-content: center;
+}
+
+.spinLoader{
+    transform: scale(2);
+    /* margin: auto; */
+    /* justify-content: center; */
+}

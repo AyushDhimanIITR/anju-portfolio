@@ -1,0 +1,73 @@
+.button{
+    font-family: 'Poppins';
+}
+.btnLink{
+    position: relative;
+    background-color: #fff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+
+.btnLink:hover{
+    color: #FFD283;
+    letter-spacing: 0.15em;
+    background-color: #FFD283;
+    box-shadow: 0 0 35px #FFD283;
+}
+
+.btnLink::before{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background-color: #27282c;
+}
+
+.btnLink span{
+    position: relative;
+    z-index: 1;
+
+}
+
+.btnLink i{
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+
+.btnLink i::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 80%;
+    width: 10px;
+    height: 4px;
+    background-color: #27282c;
+    transform: translateX(-50%) skewX(325deg);
+    transition: 0.5s;
+}
+
+.btnLink:hover i::before{
+    width: 20px;
+    left: 20%;
+}
+
+.btnLink i::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    width: 10px;
+    height: 4px;
+    background-color: #27282c;
+    transform: translateX(-50%) skewX(325deg);
+    transition: 0.5s;
+}
+
+.btnLink:hover i::after{
+    width: 20px;
+    left: 80%;
+}
