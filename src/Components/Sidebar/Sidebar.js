@@ -13,7 +13,7 @@ const Sidebar = (props) => {
     return (
         <div className={styles.sidebar}>
         <div className={styles.hamburger}>
-            <img className={styles.ham} src={hamburger} onClick={props.onClick} /> 
+            <img alt="" className={styles.ham} src={hamburger} onClick={props.onClick} /> 
         </div>
         <div className={styles.menu}>
             <Link className={styles.link} to="/">
