@@ -48,7 +48,7 @@ const Contact = () => {
             {sidebar ? (
                 <div className={styles.right}>
                 <div className={styles.hamburger}>
-                <img className={styles.ham} src={hamburger} onClick={handleClick} /> 
+                <img alt='' className={styles.ham} src={hamburger} onClick={handleClick} /> 
                 </div>
                 <div className={styles.verticalName}>Anju Chorotiya</div>
                 <div className={styles.line}></div>

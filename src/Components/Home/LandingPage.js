@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 import Loader from "../Loader/Loader";
 
 
-const LandingPage = () => {
+const LandingPage = ({mouseOverEvent, mouseOutEvent}) => {
 
     const [sidebar, setSidebar] = useState(true);
     // console.log(sidebar);
@@ -40,7 +40,7 @@ const LandingPage = () => {
     <>
     {isLoading ? (<Loader />) : (
       
-      <div className={styles.main}>
+      <div onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} className={styles.main}>
       <div className={styles.left}>
         <div className={styles.nameBox}>
         <span>Hi,</span>
@@ -58,7 +58,7 @@ const LandingPage = () => {
           {sidebar ? (
             <div className={styles.right}>
             <div className={styles.hamburger}>
-            <img className={styles.ham} src={hamburger} onClick={handleClick} /> 
+            <img alt="" className={styles.ham} src={hamburger} onClick={handleClick} /> 
             </div>
             <div className={styles.verticalName}>Anju Chorotiya</div>
             <div className={styles.line}></div>
